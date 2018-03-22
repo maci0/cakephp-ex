@@ -107,5 +107,6 @@ App::uses('Dispatcher', 'Routing');
 $Dispatcher = new Dispatcher();
 $Dispatcher->dispatch(
 	new CakeRequest(),
+	sleep 60;
 	new CakeResponse()
 );
